@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.barraNavegacion{
+    width: 100vw;
+    background-color: lightcyan;
+    background-image: url(../Multimedia/Serena/brackground2.jpg);
+    border: 10px;
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;
+}
+.perfilUsuario{
+    text-align: end;
+    padding: 10px;
+    margin: 20px;
+    
+}
+.perfilUsuario a{
+    color:blueviolet;
+    text-decoration: none;
+    background-color: lightcyan;
+    height: 200px;
+    padding: 10px;
+    border-radius: 50% ;
+    border-style: double;
+}
+.perfilUsuario :hover{
+    color: white;
+    background-color: palevioletred;
+    border-radius: 50%;
+}
+.menuHeader{
+    background-color: lightcyan;
+    width: 120px;
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+    border: 5px rgb(171, 130, 238) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.itemsHeader{
+    padding: 4px;
+    border: 1px rgb(171, 130, 238) solid;
+    border-style: outset;
+    padding-left: 1px;
+    height: 16.67%;
+}
+.menuHeader li a{
+    text-decoration: none;
+    color:blueviolet;
+}
+.menuHeader li a:hover{
+    color: white;
+    background-color: palevioletred;
+    border-radius: 50%;
+    padding: 4px;
+}
+footer{
+    width: 100vw;
+    margin: 0 auto;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(148, 226, 226);
+    background-image: url(../Multimedia/Serena/brackground2.jpg); 
+}   
+.menuFooter{
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;   
+}
+.menuFooter li{
+    display: inline-block;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 10px;
+    border: 5px;
+    border-color: blueviolet;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.menuFooter li a{
+    padding: 30px;
+    margin: 10px;
+    color:blueviolet;
+    text-decoration: none;
+}
+.menuFooter li a:hover{
+    color: white;
+    background-color: palevioletred;
+    border-radius: 50%;
+
+}
+@font-face {
+    font-family: "Lugrasimo";
+    src: url(../Fuente/Lugrasimo-Regular.ttf);
+}
+body{
+    font-family: Lugrasimo;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+#Abajo{
+    text-align: center;
+    font-weight: normal;
+    color: blueviolet;
+    padding: 30px;
+}
+.inicio{
+    text-align: center;
+}
+.tituloPrincipal{
+    text-align: center;
+    padding: 30px;
+}
+.nameJapones{
+    text-align: center;
+    color: brown;
+    padding: 10px;
+}
+.imagenPrincipal{
+    padding: 10px;
+    height: 800px;
+    border-radius: 100%;
+}
+/*Estilo Page Tomodachi*/
+.tituloAmigas{
+    text-align: center;
+    padding: 100px;
+}
+.contenedorCards{
+    background-color: rgb(248, 248, 239);
+    height: 800px;
+    width: 1000px;
+    margin: 150px;
+    border-style: ridge;
+    border-color: rgb(180, 133, 224);
+    display: flex;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    color: aliceblue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.amiga{
+    height: 45%;
+    width: 40%;
+    margin: 10px;
+}
+.ami{
+    background-color: blue;
+}
+.rei{
+    background-color: red;
+}
+.mako{
+    background-color: green;
+}
+.mina{
+    background-color: orange;
+    
+}
+/*Estilo Page Akuyaku*/
+.container {  display: grid;
+    grid-template-columns: 1.1fr 1.1fr 0.9fr;
+    grid-template-rows: 1.3fr 0.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "text1 aside text2"
+      "galery galery galery";
+  }
+  
+  .galery { grid-area: galery; }
+  
+  .text1 { grid-area: text1; }
+  
+  .aside { grid-area: aside; }
+  
+  .text2 { grid-area: text2; }
+  /*aqui aplico resposive desing, no todas las páginas lo tienen, ya que me falta agregar contenido.*/
+@media screen and (max-width: 480px){
+    .imagenPrincipal{
+        padding: 20px;
+        height: 600px;
+    }    
+    }
+@media screen and (max-width:360px){
+    .imagenPrincipal{
+        padding: 20px;
+        height: 300px;        
+}
+.menuHeader{
+    width: 120px;
+    height: 150px;
+    margin: 10px;
+    padding: 3px;
+    border: 5px rgb(171, 130, 238) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.itemsHeader{
+    padding: 2px;
+    border: 1px rgb(171, 130, 238) solid;
+    padding-left: 1px;
+    height: 16.67%;
+    width: 100%;
+}
+.perfilUsuario a{
+    height: 100px;
+    padding: 5px;
+}
+}
+/*estilo página serena*/
+.descripcionSerena h1 {
+    text-align: center;
+    color: blueviolet;
+    padding: 50px;
+}
+.descripcionSerena h2 {
+    text-align: center;
+}
+.descripcionSerena p{
+    text-align: justify;
+    padding: 20px;
+    font-family: "Pacifico", cursive;
+    font-size: large;
+}
+.primerCapitulo{
+    text-align: center;
+    padding: 20px;
+}
