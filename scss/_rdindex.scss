@@ -1,0 +1,33 @@
+@media screen and (max-width: 480px){
+    .imagenPrincipal{
+        padding: 20px;
+        height: 600px;
+    }    
+    }
+@media screen and (max-width:360px){
+    .imagenPrincipal{
+        padding: 20px;
+        height: 300px;        
+}
+.menuHeader{
+    width: 120px;
+    height: 150px;
+    margin: 10px;
+    padding: 3px;
+    border: 5px rgb(171, 130, 238) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.itemsHeader{
+    padding: 2px;
+    border: 1px rgb(171, 130, 238) solid;
+    padding-left: 1px;
+    height: 16.67%;
+    width: 100%;
+}
+.perfilUsuario a{
+    height: 100px;
+    padding: 5px;
+}
+}

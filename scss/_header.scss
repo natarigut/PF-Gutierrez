@@ -1,0 +1,59 @@
+//barra de navegación//
+.barraNavegacion{
+    width: 100vw;
+    background-color: lightcyan;
+    background-image: url(../Multimedia/Serena/brackground2.jpg);
+    border: 10px;
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;
+}
+//perfil de usuarios//
+.perfilUsuario{
+    text-align: end;
+    padding: 10px;
+    margin: 20px;
+    a{
+        color:blueviolet;
+        text-decoration: none;
+        background-color: lightcyan;
+        height: 200px;
+        padding: 10px;
+        border-radius: 50% ;
+        border-style: double;
+        &:hover{
+            color: white;
+            background-color: palevioletred;
+            border-radius: 50%;
+        }
+    }   
+}
+.menuHeader{
+    background-color: lightcyan;
+    width: 120px;
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+    border: 5px rgb(171, 130, 238) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    li a{
+        text-decoration: none;
+        color:blueviolet;
+        &:hover{
+            color: white;
+            background-color: palevioletred;
+            border-radius: 50%;
+            padding: 4px;
+        }
+    }   
+}
+.itemsHeader{
+    padding: 4px;
+    border: 1px rgb(171, 130, 238) solid;
+    border-style: outset;
+    padding-left: 1px;
+    height: 16.67%;
+}

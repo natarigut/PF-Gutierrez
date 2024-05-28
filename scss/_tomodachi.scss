@@ -1,0 +1,38 @@
+.tituloAmigas{
+    text-align: center;
+    padding: 100px;
+}
+.contenedorCards{
+    padding: 100px;
+    background-color: rgb(248, 248, 239);
+    height: 800px;
+    width: 1000px;
+    margin: 150px;
+    border-style: ridge;
+    border-color: rgb(180, 133, 224);
+    display: flex;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    color: aliceblue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.amiga{
+    height: 45%;
+    width: 40%;
+    margin: 10px;
+}
+.ami{
+    background-color: blue;
+}
+.rei{
+    background-color: red;
+}
+.mako{
+    background-color: green;
+}
+.mina{
+    background-color: orange;
+    
+}

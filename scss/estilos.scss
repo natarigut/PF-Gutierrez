@@ -1,0 +1,25 @@
+//estandarización//
+    @import "reseteo";
+//header//
+    @import "header";
+//footer//
+    @import "footer";
+//fuente//
+    @import "fuente";
+//index//
+    @import "index";
+//Estilo Page Serena//
+    @import "serena";
+//Estilo Page Tomodachi//
+    @import "tomodachi";
+//Estilo Page Akuyaku//
+    @import "akuyaku";
+//Resposive Desing//
+    @import "rdindex";
+//Estilo Page Mamoru//
+.mamoroConten{
+    h1{
+    padding: 50px;
+    text-align: center;
+    }
+}
