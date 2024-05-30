@@ -3,20 +3,30 @@ body{
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
-#Abajo{
-    text-align: center;
-    font-weight: normal;
-    color: blueviolet;
-    padding: 30px;
-    height: 10px;
-    width: 10px;
-}
 .inicio{
     text-align: center;
 }
 .tituloPrincipal{
     text-align: center;
     padding: 30px;
+    animation-name: animaTitle;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 0;
+    @keyframes animaTitle {
+        0%{
+            color: black;
+    }
+        50%{
+            color: white;
+        }
+        75%{
+            color: purple;
+        }
+        100%{
+            color: black;
+        }
+    }    
 }
 .nameJapones{
     text-align: center;

@@ -6,6 +6,12 @@ footer{
     font-style: normal;
     background-color: rgb(148, 226, 226);
     background-image: url(../Multimedia/Serena/brackground2.jpg);
+    #abajo{
+        text-align: center;
+        color: purple;
+        padding: 10px;
+        -ms-text-size-adjust: 100px;
+    }
     .menuFooter{
         list-style-type: none;
         padding: 20px;
@@ -34,6 +40,17 @@ footer{
             }   
         }   
     }
-    
+    .copaLunar a img{
+        height: 100px;
+        width: 100px;
+        border-style: double;
+        border-radius: 50% ;
+        background-color: black;
+        &:hover{
+            color: white;
+            background-color: palevioletred;
+            border-radius: 50%;
+        }
+    }
 }   
  
