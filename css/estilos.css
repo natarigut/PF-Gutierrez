@@ -337,4 +337,38 @@ body {
   padding: 10px;
 }
 
+.titP {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.perfil {
+  box-sizing: border-box;
+  display: flex;
+  align-items: end;
+  justify-content: left;
+}
+.perfil .formularioP {
+  border: 10px;
+  border-style: groove;
+  border-color: rgb(186, 93, 223);
+  padding: 20px;
+  box-sizing: border-box;
+  width: 500px;
+  line-height: 1.6;
+  font-weight: bold;
+  background-image: url(../Multimedia/Serena/bgperfil.jpg);
+  color: rgb(230, 99, 212);
+}
+.perfil .formularioP .choise {
+  font-weight: normal;
+}
+.perfil .usagiPerfil img {
+  width: 440px;
+}
+.perfil .mamoruP img {
+  width: 250px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
