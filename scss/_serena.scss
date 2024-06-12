@@ -1,18 +1,65 @@
-.descripcionSerena h1 {
-    text-align: center;
-    color: blueviolet;
-    padding: 50px;
+.titSer{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        animation-name: animaTitle;
+        animation-iteration-count:initial;
+        animation-duration: 5s;
+        animation-delay: 0;
+        @keyframes animaTitle {
+        0%{
+            color: black;
+        }
+        50%{
+            color: white;
+        }
+        75%{
+            color: purple;
+        }
+        100%{
+            color: black;
+        }
+    }
 }
-.descripcionSerena h2 {
-    text-align: center;
+.subTs{
+    text-align: right;
+    margin-right: 9%;
+    color: brown;
+    }
+.descripcionSerena{
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 1100px;
+    img{
+        width: 40%;
+    }
+    p{
+        text-align: justify;
+        font-family: "Pacifico", cursive;
+        font-size:large;
+        margin: 2%;
+        width: 30%;
+        margin-top: 8%;
+    }
 }
-.descripcionSerena p{
-    text-align: justify;
-    padding: 20px;
-    font-family: "Pacifico", cursive;
-    font-size: large;
+.facesUsagi{
+    box-sizing: border-box;
+    display: flex;
+    width: 900px;
+    align-content: stretch;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    border: groove;
+    justify-content: space-around;
+    img{
+        width: 33.33%;
+    }
+
 }
 .primerCapitulo{
-    text-align: center;
-    padding: 20px;
+    margin-left: 12%;
+    width: 700px;
 }

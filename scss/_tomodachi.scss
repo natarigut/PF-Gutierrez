@@ -1,6 +1,25 @@
 .tituloAmigas{
     text-align: center;
-    padding: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    animation-name: animaTitle;
+    animation-iteration-count:initial;
+    animation-duration: 5s;
+    animation-delay: 0;
+    @keyframes animaTitle {
+        0%{
+            color: black;
+        }
+        50%{
+            color: white;
+        }
+        75%{
+            color: purple;
+        }
+        100%{
+            color: black;
+        }
+    }
 }
 .contenedorCards{
     padding: 40px;

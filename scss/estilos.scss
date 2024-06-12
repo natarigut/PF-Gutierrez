@@ -20,80 +20,12 @@
 @import "mamoru";
 //Estilo Page Form//
 @import "miperfil";
-@media screen and (max-width:557px) {
-    .perfil{
-        align-items: center;
-        margin: 15%;
-        .usagiPerfil{
-            img{
-            width: 300px;
-            }
-        }
-        .formularioP{
-            width: 350px;
-            margin: 5%;
-            
-        }    
-    }
-        
-}
-@media screen and (max-width:440px) {
-    .perfil{
-        align-items: center;
-        margin: 15%;
-        .usagiPerfil{
-            img{
-            width: 150px;
-            }
-        }
-        .formularioP{
-            width: 250px;
-            display: flex;
-            flex-direction: column;
-            align-content: flex-start;
-            font-size: small;
-            div textarea{
-                width: 150px;
-            }
+//Responsive Desing Page Mi Perfil//
+@import "rdmiperfil";
+//Responsive Desing Page Serena//
+@import "rdserena";
 
-        }
-        .mamoruP{
-            img{
-                width: 100px;
-            }
-        }    
-    }
-        
-}
-@media screen and (max-width:360px) {
-    .perfil{
-        align-items: center;
-        margin: 15%;
-        .usagiPerfil{
-            img{
-            width: 150px;
-            }
-        }
-        .formularioP{
-            width: 220px;
-            display: flex;
-            flex-direction: column;
-            align-content: flex-start;
-            font-size: small;
-            margin: 1%;
-            div textarea{
-                width: 150px;
-            }
 
-        }
-        .mamoruP{
-            img{
-                width: 100px;
-            }
-        }    
-    }
-        
-}
 
 
 

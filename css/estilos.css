@@ -169,31 +169,97 @@ body {
   border-radius: 100%;
 }
 
-.descripcionSerena h1 {
+.titSer {
   text-align: center;
-  color: blueviolet;
-  padding: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  animation-name: animaTitle;
+  animation-iteration-count: initial;
+  animation-duration: 5s;
+  animation-delay: 0;
+}
+@keyframes animaTitle {
+  0% {
+    color: black;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: purple;
+  }
+  100% {
+    color: black;
+  }
 }
 
-.descripcionSerena h2 {
-  text-align: center;
+.subTs {
+  text-align: right;
+  margin-right: 9%;
+  color: brown;
 }
 
+.descripcionSerena {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  width: 1100px;
+}
+.descripcionSerena img {
+  width: 40%;
+}
 .descripcionSerena p {
   text-align: justify;
-  padding: 20px;
   font-family: "Pacifico", cursive;
   font-size: large;
+  margin: 2%;
+  width: 30%;
+  margin-top: 8%;
+}
+
+.facesUsagi {
+  box-sizing: border-box;
+  display: flex;
+  width: 900px;
+  align-content: stretch;
+  margin-left: 15%;
+  margin-bottom: 3%;
+  border: groove;
+  justify-content: space-around;
+}
+.facesUsagi img {
+  width: 33.33%;
 }
 
 .primerCapitulo {
-  text-align: center;
-  padding: 20px;
+  margin-left: 12%;
+  width: 700px;
 }
 
 .tituloAmigas {
   text-align: center;
-  padding: 100px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  animation-name: animaTitle;
+  animation-iteration-count: initial;
+  animation-duration: 5s;
+  animation-delay: 0;
+}
+@keyframes animaTitle {
+  0% {
+    color: black;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: purple;
+  }
+  100% {
+    color: black;
+  }
 }
 
 .contenedorCards {
@@ -294,15 +360,36 @@ body {
     padding: 5px;
   }
 }
+.titM {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  animation-name: animaTitle;
+  animation-iteration-count: initial;
+  animation-duration: 5s;
+  animation-delay: 0;
+}
+@keyframes animaTitle {
+  0% {
+    color: black;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: purple;
+  }
+  100% {
+    color: black;
+  }
+}
+
 .mamoruConten {
   padding: 50px;
   margin: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
-.mamoruConten h1 {
-  padding: auto;
 }
 .mamoruConten p {
   width: 200px;
@@ -322,6 +409,7 @@ body {
 .mamoruConten .family .tableFamily {
   text-align: center;
   background-color: rgb(197, 252, 243);
+  background-image: url(../Multimedia/Serena/bgperfil.jpg);
   padding: 10px;
   margin-top: 10px;
 }
@@ -461,6 +549,154 @@ body {
   }
   .perfil .mamoruP img {
     width: 100px;
+  }
+}
+@media screen and (max-width: 557px) {
+  .perfil {
+    align-items: center;
+    margin: 15%;
+  }
+  .perfil .usagiPerfil img {
+    width: 300px;
+  }
+  .perfil .formularioP {
+    width: 350px;
+    margin: 5%;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .descripcionSerena {
+    align-items: flex-start;
+    margin-bottom: 2%;
+    width: 1200px;
+    margin-left: 1%;
+  }
+  .descripcionSerena img {
+    width: 20%;
+    margin-left: 3%;
+    padding-top: 0.5%;
+  }
+  .descripcionSerena p {
+    text-align: justify;
+    font-family: "Pacifico", cursive;
+    font-size: medium;
+    margin: 1%;
+    width: 25%;
+    margin-top: 2%;
+  }
+  .facesUsagi {
+    width: 700px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    border: groove;
+    justify-content: space-around;
+  }
+  .facesUsagi img {
+    width: 33.33%;
+  }
+  .primerCapitulo {
+    margin-left: 10%;
+    margin-bottom: 3%;
+  }
+  .primerCapitulo video {
+    width: 800px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .descripcionSerena {
+    width: 1000px;
+  }
+  .primerCapitulo video {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .descripcionSerena {
+    width: 800px;
+  }
+  .facesUsagi {
+    width: 500px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    border: groove;
+    justify-content: space-around;
+  }
+  .facesUsagi img {
+    width: 33.33%;
+  }
+  .primerCapitulo video {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 615px) {
+  .descripcionSerena {
+    flex-direction: column;
+    width: 800px;
+    margin-left: 4%;
+  }
+  .descripcionSerena img {
+    width: 20%;
+    margin-left: 5%;
+    padding-top: 0.5%;
+  }
+  .descripcionSerena p {
+    text-align: justify;
+    font-family: "Pacifico", cursive;
+    font-size: medium;
+    margin: 0.5%;
+    width: 50%;
+    margin-top: 2%;
+  }
+  .facesUsagi {
+    width: 400px;
+    margin-left: 8%;
+    margin-bottom: 3%;
+    border: groove;
+    justify-content: space-around;
+  }
+  .facesUsagi img {
+    width: 33.33%;
+  }
+  .primerCapitulo video {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .descripcionSerena {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2%;
+    width: 1100px;
+  }
+  .descripcionSerena img {
+    width: 20%;
+    margin-left: 5%;
+    padding-top: 0.5%;
+  }
+  .descripcionSerena p {
+    text-align: justify;
+    font-family: "Pacifico", cursive;
+    font-size: medium;
+    margin: 1%;
+    width: 25%;
+    margin-top: 2%;
+  }
+  .facesUsagi {
+    width: 300px;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    border: groove;
+    justify-content: space-around;
+  }
+  .facesUsagi img {
+    width: 33.33%;
+  }
+  .primerCapitulo {
+    margin-left: 2%;
+    margin-bottom: 3%;
+  }
+  .primerCapitulo video {
+    width: 300px;
   }
 }
 
