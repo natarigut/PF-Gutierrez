@@ -382,7 +382,7 @@ body {
 .galleryVill img:hover {
   border: double black;
   opacity: 1;
-  transform: scale(1.5, 1.5);
+  transform: scale(1.25, 1.25);
   z-index: 1;
   transition: all 1s;
 }
@@ -444,44 +444,117 @@ body {
   }
 }
 
-.mamoruConten {
-  margin: 10px;
+.introM {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 1200px;
+  height: 400px;
+  padding: 10px;
+  margin: 5%;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+.introM .presentM {
+  margin: 1%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: right;
+}
+.introM .presentM p {
+  text-align: left;
+}
+.introM .presentM img {
+  border-radius: 50%;
+  width: 150px;
+  border: groove black;
+}
+.introM .presentM h2 {
+  padding: 1px;
+}
+
+.miDarien {
+  margin: 5%;
+  margin-bottom: 1%;
+  border: groove black;
+  padding: 1%;
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  font-family: "Pacifico", cursive;
+  font-style: normal;
 }
-.mamoruConten p {
-  width: 200px;
+.miDarien p {
+  width: 30%;
+  margin-left: 20px;
+  margin-bottom: 0%;
+  font-size: larger;
+  color: rgb(31, 29, 29);
 }
-.mamoruConten img {
-  border-radius: 50%;
-}
-.mamoruConten .caracM {
-  padding: 10px;
-}
-.mamoruConten .caracM li {
-  margin: 20px;
-}
-.mamoruConten .family {
-  padding: 10px;
-}
-.mamoruConten .family .tableFamily {
-  text-align: center;
-  background-color: rgb(197, 252, 243);
+
+.caracM {
+  border: solid;
+  width: 400px;
+  margin: 5%;
   background-image: url(../Multimedia/Serena/bgperfil.jpg);
+}
+.caracM h2 {
+  text-align: center;
+  color: brown;
+  background-color: black;
+}
+.caracM ol {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 12%;
+}
+
+.family {
+  border: solid;
+  width: 400px;
+  margin: 5%;
+  background-image: url(../Multimedia/Serena/bgperfil.jpg);
+}
+.family h2 {
+  text-align: center;
+  color: brown;
+  background-color: black;
+}
+.family .tableFamily {
   padding: 10px;
   margin-top: 10px;
+  margin-left: 20px;
 }
-.mamoruConten .family .toxImg {
+.family .toxImg {
   height: 500px;
   padding: 5px;
   margin: 20px;
 }
-.mamoruConten .park {
+.family audio {
+  margin: 40px;
+}
+
+.resumenM {
+  box-sizing: border-box;
+  display: flex;
+  border: solid;
+  width: 1200px;
+  margin: 5%;
+  justify-content: space-evenly;
+}
+
+.park {
   text-align: center;
   padding: 10px;
 }
-.mamoruConten .park h2 {
+.park h2 {
   padding: 10px;
 }
 
