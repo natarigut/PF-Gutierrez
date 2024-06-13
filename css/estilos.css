@@ -267,7 +267,7 @@ body {
   display: flex;
   flex-direction: column;
   position: absolute;
-  margin-left: 20%;
+  margin-left: 15%;
   margin-top: 10%;
   border: solid;
   width: 300px;
@@ -285,7 +285,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   text-align: right;
-  margin-left: 14%;
+  margin-left: 10%;
+  margin-right: 10%;
   border: groove;
   width: 1000px;
 }
@@ -303,7 +304,7 @@ body {
   background-image: url(../Multimedia/Serena/bgperfil.jpg);
   height: 800px;
   width: 1000px;
-  margin: 14%;
+  margin: 10%;
   border-style: ridge;
   border-color: rgb(180, 133, 224);
   display: flex;
@@ -361,29 +362,29 @@ body {
   }
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 1.1fr 1.1fr 0.9fr;
-  grid-template-rows: 1.3fr 0.6fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "text1 aside text2" "galery galery galery";
+.galleryVill {
+  width: 1300px;
+  height: 1000px;
+  justify-content: space-around;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2%;
+  background-image: url(../Multimedia/Serena/bgperfil.jpg);
 }
-
-.galery {
-  grid-area: galery;
+.galleryVill img {
+  border: double;
+  width: 20%;
+  padding: 0.5%;
+  opacity: 0.4;
+  background-color: white;
 }
-
-.text1 {
-  grid-area: text1;
-}
-
-.aside {
-  grid-area: aside;
-}
-
-.text2 {
-  grid-area: text2;
+.galleryVill img:hover {
+  border: double black;
+  opacity: 1;
+  transform: scale(1.5, 1.5);
+  z-index: 1;
+  transition: all 1s;
 }
 
 @media screen and (max-width: 480px) {
@@ -444,7 +445,6 @@ body {
 }
 
 .mamoruConten {
-  padding: 50px;
   margin: 10px;
   display: flex;
   flex-wrap: wrap;
