@@ -1,30 +1,3 @@
-//estandarización//
-    @import "reseteo";
-//header//
-    @import "header";
-//footer//
-    @import "footer";
-//fuente//
-    @import "fuente";
-//index//
-    @import "index";
-//Estilo Page Serena//
-    @import "serena";
-//Estilo Page Tomodachi//
-    @import "tomodachi";
-//Estilo Page Akuyaku//
-    @import "akuyaku";
-//Resposive Desing//
-    @import "rdindex";
-//Estilo Page Mamoru//
-@import "mamoru";
-//Estilo Page Form//
-@import "miperfil";
-//Responsive Desing Page Mi Perfil//
-@import "rdmiperfil";
-//Responsive Desing Page Serena//
-@import "rdserena";
-//Responsive Desing Page Mamoru//
 @media screen and (max-width:480px) {
     .introM{
         width: 400px;
@@ -132,11 +105,3 @@
         }
     
 }
-
-
-
-
-
-
-
-

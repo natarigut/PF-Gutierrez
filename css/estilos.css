@@ -497,48 +497,15 @@ body {
   color: rgb(31, 29, 29);
 }
 
-.caracM {
-  border: solid;
-  width: 400px;
+.juntos {
+  width: 1200px;
   margin: 5%;
-  background-image: url(../Multimedia/Serena/bgperfil.jpg);
-}
-.caracM h2 {
-  text-align: center;
-  color: brown;
-  background-color: black;
-}
-.caracM ol {
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  margin: 12%;
+  justify-content: space-evenly;
 }
-
-.family {
-  border: solid;
-  width: 400px;
-  margin: 5%;
-  background-image: url(../Multimedia/Serena/bgperfil.jpg);
-}
-.family h2 {
-  text-align: center;
-  color: brown;
-  background-color: black;
-}
-.family .tableFamily {
-  padding: 10px;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-.family .toxImg {
-  height: 500px;
-  padding: 5px;
-  margin: 20px;
-}
-.family audio {
-  margin: 40px;
+.juntos img {
+  width: 300px;
 }
 
 .resumenM {
@@ -548,6 +515,48 @@ body {
   width: 1200px;
   margin: 5%;
   justify-content: space-evenly;
+}
+.resumenM .caracM {
+  border: solid;
+  width: 400px;
+  margin: 5%;
+  background-image: url(../Multimedia/Serena/bgperfil.jpg);
+}
+.resumenM .caracM h2 {
+  text-align: center;
+  color: brown;
+  background-color: black;
+}
+.resumenM .caracM ol {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 12%;
+}
+.resumenM .family {
+  border: solid;
+  width: 400px;
+  margin: 5%;
+  background-image: url(../Multimedia/Serena/bgperfil.jpg);
+}
+.resumenM .family h2 {
+  text-align: center;
+  color: brown;
+  background-color: black;
+}
+.resumenM .family .tableFamily {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.resumenM .family .toxImg {
+  height: 500px;
+  padding: 5px;
+  margin: 20px;
+}
+.resumenM .family audio {
+  margin: 40px;
 }
 
 .park {
@@ -683,7 +692,7 @@ body {
     width: 100px;
   }
 }
-@media screen and (max-width: 557px) {
+@media screen and (max-width: 480px) {
   .perfil {
     align-items: center;
     margin: 15%;
@@ -696,104 +705,7 @@ body {
     margin: 5%;
   }
 }
-@media screen and (max-width: 1180px) {
-  .descripcionSerena {
-    align-items: flex-start;
-    margin-bottom: 2%;
-    width: 1200px;
-    margin-left: 1%;
-  }
-  .descripcionSerena img {
-    width: 20%;
-    margin-left: 3%;
-    padding-top: 0.5%;
-  }
-  .descripcionSerena p {
-    text-align: justify;
-    font-family: "Pacifico", cursive;
-    font-size: medium;
-    margin: 1%;
-    width: 25%;
-    margin-top: 2%;
-  }
-  .facesUsagi {
-    width: 700px;
-    margin-left: 10%;
-    margin-bottom: 3%;
-    border: groove;
-    justify-content: space-around;
-  }
-  .facesUsagi img {
-    width: 33.33%;
-  }
-  .primerCapitulo {
-    margin-left: 10%;
-    margin-bottom: 3%;
-  }
-  .primerCapitulo video {
-    width: 800px;
-  }
-}
-@media screen and (max-width: 930px) {
-  .descripcionSerena {
-    width: 1000px;
-  }
-  .primerCapitulo video {
-    width: 600px;
-  }
-}
-@media screen and (max-width: 780px) {
-  .descripcionSerena {
-    width: 800px;
-  }
-  .facesUsagi {
-    width: 500px;
-    margin-left: 10%;
-    margin-bottom: 3%;
-    border: groove;
-    justify-content: space-around;
-  }
-  .facesUsagi img {
-    width: 33.33%;
-  }
-  .primerCapitulo video {
-    width: 400px;
-  }
-}
-@media screen and (max-width: 615px) {
-  .descripcionSerena {
-    flex-direction: column;
-    width: 800px;
-    margin-left: 4%;
-  }
-  .descripcionSerena img {
-    width: 20%;
-    margin-left: 5%;
-    padding-top: 0.5%;
-  }
-  .descripcionSerena p {
-    text-align: justify;
-    font-family: "Pacifico", cursive;
-    font-size: medium;
-    margin: 0.5%;
-    width: 50%;
-    margin-top: 2%;
-  }
-  .facesUsagi {
-    width: 400px;
-    margin-left: 8%;
-    margin-bottom: 3%;
-    border: groove;
-    justify-content: space-around;
-  }
-  .facesUsagi img {
-    width: 33.33%;
-  }
-  .primerCapitulo video {
-    width: 400px;
-  }
-}
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
   .descripcionSerena {
     flex-direction: column;
     align-items: flex-start;
@@ -809,26 +721,122 @@ body {
     text-align: justify;
     font-family: "Pacifico", cursive;
     font-size: medium;
-    margin: 1%;
+    margin: 0.5%;
     width: 25%;
     margin-top: 2%;
   }
   .facesUsagi {
     width: 300px;
-    margin-left: 5%;
-    margin-bottom: 3%;
-    border: groove;
-    justify-content: space-around;
-  }
-  .facesUsagi img {
-    width: 33.33%;
+    margin-left: 3%;
   }
   .primerCapitulo {
-    margin-left: 2%;
+    margin-left: 1.5%;
     margin-bottom: 3%;
   }
   .primerCapitulo video {
     width: 300px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .introM {
+    width: 400px;
+    height: 350px;
+    margin: 3%;
+  }
+  .introM .presentM {
+    margin: 0.5%;
+    width: 200px;
+  }
+  .introM .presentM p {
+    text-align: left;
+    font-size: smaller;
+    font-style: italic;
+  }
+  .introM .presentM img {
+    width: 100px;
+  }
+  .introM .presentM h2 {
+    font-size: medium;
+  }
+  .miDarien p {
+    width: 40%;
+    margin-left: 10px;
+    margin-bottom: 0%;
+    font-size: smaller;
+  }
+  .juntos {
+    width: 400px;
+    margin: 2%;
+  }
+  .juntos img {
+    width: 100px;
+  }
+  .resumenM {
+    flex-direction: column;
+    width: 400px;
+  }
+  .resumenM .caracM {
+    width: 300px;
+    margin: 4%;
+  }
+  .resumenM .family {
+    width: 300px;
+    margin: 3%;
+  }
+  .resumenM .family .tableFamily {
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .resumenM .family audio {
+    margin: 20px;
+    width: 200px;
+  }
+  .park {
+    padding: 5px;
+  }
+  .park h2 {
+    padding: 10px;
+  }
+  .park iframe {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .introM {
+    width: 400px;
+    height: 700px;
+    margin-left: 10%;
+    justify-content: stretch;
+    flex-wrap: wrap;
+  }
+  .miDarien {
+    margin-left: 3%;
+  }
+  .miDarien p {
+    flex-direction: column;
+    width: 100%;
+  }
+  .juntos {
+    width: 300px;
+    margin: 2%;
+  }
+  .juntos img {
+    width: 100px;
+  }
+  .resumenM {
+    width: 300px;
+  }
+  .resumenM .caracM {
+    width: 280px;
+    margin: 2%;
+  }
+  .resumenM .family {
+    width: 280px;
+    margin: 2%;
+  }
+  .park {
+    margin: 1%;
   }
 }
 

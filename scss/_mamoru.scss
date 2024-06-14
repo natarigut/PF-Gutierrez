@@ -72,25 +72,24 @@
         color: rgb(31, 29, 29);
     }
 }
-.caracM{
-    border: solid;
-    width: 400px;
+.juntos{
+    width: 1200px;
     margin: 5%;
-    background-image: url(../Multimedia/Serena/bgperfil.jpg);
-    h2{
-        text-align: center;
-        color: brown;
-        background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        width: 300px;
     }
-    ol{
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        margin: 12%;
-        }
-    }
-.family{
+}
+.resumenM{
+    box-sizing: border-box;
+    display: flex;
+    border: solid;
+    width: 1200px;
+    margin: 5%;
+    justify-content: space-evenly;
+    .caracM{
         border: solid;
         width: 400px;
         margin: 5%;
@@ -100,29 +99,42 @@
             color: brown;
             background-color: black;
         }
-        .tableFamily{
-            padding: 10px;
-            margin-top: 10px;
-            margin-left: 20px;
+        ol{
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            margin: 12%;
+            }
         }
-        .toxImg{
-            height: 500px;
-            padding: 5px;
-            margin: 20px;
+    .family{
+            border: solid;
+            width: 400px;
+            margin: 5%;
+            background-image: url(../Multimedia/Serena/bgperfil.jpg);
+            h2{
+                text-align: center;
+                color: brown;
+                background-color: black;
+            }
+            .tableFamily{
+                padding: 10px;
+                margin-top: 10px;
+                margin-left: 20px;
+            }
+            .toxImg{
+                height: 500px;
+                padding: 5px;
+                margin: 20px;
+            }
+            audio{
+                margin: 40px;
+            }
         }
-        audio{
-            margin: 40px;
-        }
-    }
-.resumenM{
-    box-sizing: border-box;
-    display: flex;
-    border: solid;
-    width: 1200px;
-    margin: 5%;
-    justify-content: space-evenly;
+    
 }
-    .park{
+
+.park{
         text-align: center;
         padding: 10px;
     
