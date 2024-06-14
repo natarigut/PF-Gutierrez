@@ -1,0 +1,20 @@
+@media screen and (max-width:480px) {
+    .galleryVill{
+        width: 450px;
+        height: 100%;
+        border: 0.25%;
+        img{
+            width: 20%;
+        }
+    }
+}
+@media screen and (max-width:320px) {
+    .galleryVill{
+        width: 300px;
+        height: 100%;
+        border: 0.25%;
+        img{
+            width: 20%;
+        }
+    }
+}

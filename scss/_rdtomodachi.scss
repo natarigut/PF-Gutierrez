@@ -1,0 +1,69 @@
+@media screen and (max-width:480px) {
+    .moments{
+        margin-left: 2%;
+        margin-top: 10%;
+        border:inherit;
+        width: 460px;
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        z-index: -1;
+        opacity: 0.5;
+        img{
+            width: 235px;
+            margin-left: 45%;
+            margin-top: 10%;
+            margin-bottom: 1%;
+        }
+    }
+    .textSailors{
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        margin-left: 1%;
+        margin-right: 10%;
+        border: double purple;
+        width: 460px;
+        p{
+            width: 100%;
+            margin: 2%;
+            text-size-adjust: small;
+            font-weight: bold;
+            color: aliceblue;
+        }
+    }
+    .contenedorCards{
+        flex-direction: column;
+        width: 460px;
+        margin: 1%;
+        height: 100%;
+    }
+    .amiga{
+        height: 40%;
+        width: 100%;
+        margin: 1%;
+        padding: 0.5%;
+    }
+}
+@media screen and (max-width:320px) {
+    .moments{
+        width: 300px;
+        img{
+            width: 150px;
+        }
+    }
+    .textSailors{
+        width: 300px;
+    }
+    .contenedorCards{
+        width: 300px;
+    }
+    .amiga{
+        height: 40%;
+        width: 100%;
+        margin: 0.5%;
+        padding: 0.5%;
+        .carousel-item{
+            padding: 1%;
+        }
+    }
+}
