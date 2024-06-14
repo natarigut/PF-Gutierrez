@@ -3,7 +3,7 @@
         margin-left: 2%;
         margin-top: 10%;
         border:inherit;
-        width: 460px;
+        width: 400px;
         background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
         z-index: -1;
         opacity: 0.5;
@@ -22,7 +22,7 @@
         margin-left: 1%;
         margin-right: 10%;
         border: double purple;
-        width: 460px;
+        width: 400px;
         p{
             width: 100%;
             margin: 2%;
@@ -33,7 +33,7 @@
     }
     .contenedorCards{
         flex-direction: column;
-        width: 460px;
+        width: 400px;
         margin: 1%;
         height: 100%;
     }
@@ -46,16 +46,16 @@
 }
 @media screen and (max-width:320px) {
     .moments{
-        width: 300px;
+        width: 280px;
         img{
             width: 150px;
         }
     }
     .textSailors{
-        width: 300px;
+        width: 280px;
     }
     .contenedorCards{
-        width: 300px;
+        width: 280px;
     }
     .amiga{
         height: 40%;

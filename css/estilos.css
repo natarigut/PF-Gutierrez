@@ -267,7 +267,7 @@ body {
   display: flex;
   flex-direction: column;
   position: absolute;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top: 10%;
   border: solid;
   width: 300px;
@@ -275,7 +275,7 @@ body {
 }
 .moments img {
   width: 235px;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 2%;
   margin-bottom: 1%;
 }
@@ -285,7 +285,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   text-align: right;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-right: 10%;
   border: groove;
   width: 1000px;
@@ -304,7 +304,7 @@ body {
   background-image: url(../Multimedia/Serena/bgperfil.jpg);
   height: 800px;
   width: 1000px;
-  margin: 10%;
+  margin: 5%;
   border-style: ridge;
   border-color: rgb(180, 133, 224);
   display: flex;
@@ -363,13 +363,13 @@ body {
 }
 
 .galleryVill {
-  width: 1300px;
-  height: 1000px;
+  width: 1010px;
+  height: 800px;
   justify-content: space-around;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  margin: 2%;
+  margin: 3%;
   background-image: url(../Multimedia/Serena/bgperfil.jpg);
 }
 .galleryVill img {
@@ -875,7 +875,7 @@ body {
     margin-left: 2%;
     margin-top: 10%;
     border: inherit;
-    width: 460px;
+    width: 400px;
     background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
     z-index: -1;
     opacity: 0.5;
@@ -894,7 +894,7 @@ body {
     margin-left: 1%;
     margin-right: 10%;
     border: double purple;
-    width: 460px;
+    width: 400px;
   }
   .textSailors p {
     width: 100%;
@@ -905,7 +905,7 @@ body {
   }
   .contenedorCards {
     flex-direction: column;
-    width: 460px;
+    width: 400px;
     margin: 1%;
     height: 100%;
   }
@@ -918,16 +918,16 @@ body {
 }
 @media screen and (max-width: 320px) {
   .moments {
-    width: 300px;
+    width: 280px;
   }
   .moments img {
     width: 150px;
   }
   .textSailors {
-    width: 300px;
+    width: 280px;
   }
   .contenedorCards {
-    width: 300px;
+    width: 280px;
   }
   .amiga {
     height: 40%;
