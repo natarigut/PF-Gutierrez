@@ -272,7 +272,6 @@ body {
   border: solid;
   width: 300px;
   background-color: black;
-  z-index: -1;
 }
 .moments img {
   width: 235px;
@@ -450,10 +449,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  width: 1200px;
+  width: 1000px;
   height: 400px;
   padding: 10px;
-  margin: 5%;
+  margin: 2%;
   margin-top: 2%;
   margin-bottom: 0;
 }
@@ -499,8 +498,8 @@ body {
 }
 
 .juntos {
-  width: 1200px;
-  margin: 5%;
+  width: 1000px;
+  margin: 2%;
   box-sizing: border-box;
   display: flex;
   justify-content: space-evenly;
@@ -513,8 +512,8 @@ body {
   box-sizing: border-box;
   display: flex;
   border: solid;
-  width: 1200px;
-  margin: 5%;
+  width: 1000px;
+  margin: 1%;
   justify-content: space-evenly;
 }
 .resumenM .caracM {
@@ -836,7 +835,7 @@ body {
 }
 @media screen and (max-width: 320px) {
   .introM {
-    width: 400px;
+    width: 300px;
     height: 700px;
     margin-left: 10%;
     justify-content: stretch;
@@ -850,7 +849,7 @@ body {
     width: 100%;
   }
   .juntos {
-    width: 300px;
+    width: 290px;
     margin: 2%;
   }
   .juntos img {
