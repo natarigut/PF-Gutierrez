@@ -517,10 +517,10 @@ body {
   justify-content: space-evenly;
 }
 .resumenM .caracM {
-  border: solid;
+  border: groove black;
+  background: url(../Multimedia/Serena/bgperfil.jpg);
   width: 400px;
   margin: 5%;
-  background-image: url(../Multimedia/Serena/bgperfil.jpg);
 }
 .resumenM .caracM h2 {
   text-align: center;
@@ -535,10 +535,10 @@ body {
   margin: 12%;
 }
 .resumenM .family {
-  border: solid;
+  border: groove black;
+  background: url(../Multimedia/Serena/bgperfil.jpg);
   width: 400px;
   margin: 5%;
-  background-image: url(../Multimedia/Serena/bgperfil.jpg);
 }
 .resumenM .family h2 {
   text-align: center;

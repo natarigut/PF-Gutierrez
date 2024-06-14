@@ -1,4 +1,14 @@
 $borderBlack: groove black; 
+$bgImage: url(../Multimedia/Serena/bgperfil.jpg);
+
+@mixin boxResumen ($border,$bg,$ancho){
+    border: $border;
+    background: $bg;
+    width: $ancho;
+    margin: 5%;
+    
+}
+
 .titM{
     text-align: center;
     margin-top: 40px;
@@ -91,10 +101,7 @@ $borderBlack: groove black;
     margin: 1%;
     justify-content: space-evenly;
     .caracM{
-        border: solid;
-        width: 400px;
-        margin: 5%;
-        background-image: url(../Multimedia/Serena/bgperfil.jpg);
+        @include boxResumen ($borderBlack, $bgImage, 400px );
         h2{
             text-align: center;
             color: brown;
@@ -109,10 +116,7 @@ $borderBlack: groove black;
             }
         }
     .family{
-            border: solid;
-            width: 400px;
-            margin: 5%;
-            background-image: url(../Multimedia/Serena/bgperfil.jpg);
+        @include boxResumen ($borderBlack, $bgImage, 400px );
             h2{
                 text-align: center;
                 color: brown;
@@ -133,7 +137,6 @@ $borderBlack: groove black;
             }
         }    
 }
-
 .park{
         text-align: center;
         padding: 10px;
